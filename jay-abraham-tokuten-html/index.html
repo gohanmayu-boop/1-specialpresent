@@ -47,7 +47,7 @@
       position:relative;
       overflow:hidden;
       text-align:center;
-      padding:40px 20px 44px;
+      padding:40px 20px 0px;
       background:transparent;
     }
     .hero-banner{
@@ -108,7 +108,7 @@
       filter:drop-shadow(1px 0 0 #4a0705);
     }
     .cta-note{margin:14px 0 0;font-size:11.5px;color:#a99a78;letter-spacing:.02em;text-align:center;}
-    .list{position:relative;max-width:640px;margin:0 auto;padding:44px 20px 90px;background:transparent;}
+    .list{position:relative;max-width:640px;margin:0 auto;padding:4px 20px 90px;background:transparent;}
     .item{position:relative;z-index:1;}
     .item .pill-inner{
       font-family:"Shippori Mincho",serif;
@@ -141,8 +141,11 @@
     }
     .thumb svg.icon{width:34px;height:34px;stroke:rgba(209,169,74,0.55);z-index:1;}
     .thumb-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;}
+    .excl{font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN",sans-serif;font-style:normal;}
+    .sp-break{display:none;}
     @media (max-width:480px){
       .pill-inner{padding:14px 16px;}
+      .sp-break{display:inline;}
     }
 </style>
 </head>
@@ -157,7 +160,7 @@
   <div class="list-glow side-right" style="top:92%"></div>
   <section class="hero">
     <img class="hero-banner" src="hero-banner.png" alt="ジェイ・エイブラハム来日特別講演 来場者限定プレゼント 16の成功者が明かす 億を生み出す33のピース">
-    <p class="hero-copy serif">ジェイ・エイブラハム来日特別講演<br>来場者限定の豪華特典を今すぐお受け取りください！</p>
+    <p class="hero-copy serif">ジェイ・エイブラハム来日特別講演<br>来場者限定の豪華特典を<br class="sp-break">今すぐお受け取りください<span class="excl">！</span></p>
   </section>
   <div class="list">
     
